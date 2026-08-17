@@ -3,7 +3,8 @@ This is all the software and hardware used to put together the taser karaoke sys
 
 # Dependencies
 I am using Python 3.13.13
-Unfortunately the code will only work on Windows due to the fact that I used libraries that are windows specific to grab the YARG window.
+The code should work with any OS, however it does require some screen capture software. I am using OBS for this project, but you can always use a different one.
+- Make sure that it can publish the captured video to a virtual camera. This is how the python script capture the game footage.
 
 # How to launch
 1. Install dependencies
